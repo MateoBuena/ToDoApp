@@ -1,34 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Kiwi Maru', serif;
-} 
-
-body{
-    background-image: url('https://img.freepik.com/free-vector/clean-diagonal-geometric-shape-pattern_1017-8402.jpg?w=740&t=st=1706622170~exp=1706622770~hmac=13a1ae9250841d6ba54f6d81cee4e9d78842d60e0afe488ba165722e9b5fc3f7');
+    text-align: center;
+    color: #fff;
 }
 
-.flex-header{
+body {
+    background: #222;
+}
+
+.flex-header {
     display: flex;
 }
 
-.title{
+.title {
     margin: 1rem auto;
-    border-bottom: 2px solid #111;
+    border-bottom: 2px solid #fff;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     width: 100%;
     height: 7vh;
 }
 
-.flex-item{
+.flex-item {
     margin: auto;
     width: 70%;
 }
 
-.text{
+.text {
     width: 78%;
     text-align: left;
     outline: none;
@@ -38,12 +40,12 @@ body{
     background: none;
 }
 
-.text:focus{
+.text:focus {
     border-bottom: 2px solid #22e;
     transition: border-bottom .5s;
 }
 
-.send{
+.send {
     width: 15%;
     text-align: center;
     background: none;
@@ -53,32 +55,34 @@ body{
     font-size: 10px;
 }
 
-.send:hover{
+.send:hover {
     border-color: #22e;
     background: #eee;
 }
 
-.flex-item-notes{
-    margin:  15px auto;
+.flex-item-notes {
+    margin: 15px auto;
     width: 90%;
     display: flex;
     border-bottom: 2px solid #55f;
 }
 
-.checkbox{
-    margin: 0px 5px;
+.checkbox {
+    margin: 5px 5px 0 5px;
 }
 
-.note{
+.note {
     margin: 0;
-    font-size: 15px;
+    font-size: 20px;
+    text-align: center;
 }
 
-.Delete{
+.Delete {
     margin-left: auto;
     margin-right: 5px;
     background: none;
     border: none;
     color: #f00;
     cursor: pointer;
+    font-size: 18px;
 }
