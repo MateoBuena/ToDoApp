@@ -4,92 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <!-- google fonts -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>ToDoApp</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap" rel="stylesheet">
-
-    <title>Mateo Buena desarrollador front-end</title>
-    <link rel="icon" type="image/x-icon" href="img/icono_del_navbar.png">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav>
-        <button type="button" class="menu_desplegable"><img src="img/barra-de-menus.png" alt="menu"
-                class="img_menu_desplegable"></button>
-        <div class="menu_flex visible">
-            <ul class="ul">
-                <li class="ul_li"><a href="#sobre_mi">Sobre mi</a></li>
-                <li class="ul_li"><a href="#redes">Redes</a></li>
-                <li class="ul_li"><a href="#proyectos">Proyectos</a></li>
-                <li class="ul_li"><a href="#habilidades">Habilidades</a></li>
-            </ul>
+    <header class="flex-header">
+        <h1 class="title">ToDoApp</h1>
+    </header>
+    <div class="flex-container">
+        <div class="flex-item">
+            <input type="text" class="text">
+            <input type="submit" value="Send" class="send">
         </div>
-    </nav>
-    <main>
-        <!-- seccion principal -->
-        <section class="principal" id="sobre_mi">
-            <img src="img/foto_perfil2.png" alt="foto de mateo buena" class="img_perfil">
-            <h1 id="nombre"></h1>
-            <p class="sobre_mi">Soy de Argentina. Estudio en la UTN-Sede General Pacheco, las diferentes tecnologías
-                como <strong class="texto-naranja">HTML</strong>, <strong class="texto-azul">CSS</strong>, <strong
-                    class="texto-amarillo">JS</strong>... las aprendo de forma autodidacta. <strong
-                    class="texto-verde">con ímpetu a seguir progresando</strong>.</p>
-            <!-- <div class="contenedor_cv">
-                <button class="boton_cv">Curriculum(PDF)</button>
-            </div> -->
-        </section>
-        <section class="section" id="redes">
-            <div class="div_subtitulo">
-                <img src="img/a.png" alt="arroba">
-                <h2 class="subtitulo h2_redes"> Redes</h2>
-            </div>
-            <div class="botones_redes">
-                <button class="boton_redes"><a href="https://github.com/MateoBuena" target="_blank"><img src="img/github.svg" alt="github"> github</a></button>
-                <button class="boton_redes"><a href="https://www.linkedin.com/in/mateo-buena-frescour-84b9921b0/" target="_blank"><img src="img/linkedin.svg" alt="Linkedin">
-                        linkedin</a></button>
-                <button class="boton_redes"><a href="mailto:mateo.buenafrescour@gmail.com"><img src="img/correo-electronico.png" alt="email">
-                        mateo.buenafrescour@gmail.com</a></button>
-            </div>
-        </section>
-        <section class="section" id="proyectos">
-            <div class="div_subtitulo">
-                <img src="img/boligrafo.png" alt="boligrafo">
-                <h2 class="subtitulo">Proyectos</h2>
-            </div>
-            <div class="div_titulo_proyecto">
-                <h3 class="subrayado">• ToDoApp</h3>
-                <a href="https://github.com/MateoBuena/ToDoApp" target="_blank">codigo</a>
-            </div>
-            <div class="contenedor_proyecto">
-                <a href="https://mateobuena.github.io/ToDoApp/" target="_blank">ir al sitio web</a>
-                <img src="img/ToDoApp.png" alt="imagen del ToDoApp">
-            </div>
-            <div class="div_titulo_proyecto">
-                <h3 class="subrayado">• PokeApi</h3>
-                <a href="https://github.com/MateoBuena/pokeAPI" target="_blank">codigo</a>
-            </div>
-            <div class="contenedor_proyecto">
-                <a href="https://mateobuena.github.io/pokeAPI/" target="_blank">ir al sitio web</a>
-                <img src="img/PokeApi.png" alt="imagen de la PokeApi">
-            </div>
-        </section>
-        <section class="section" id="habilidades">
-            <div class="div_subtitulo">
-                <img src="img/habilidades.png" alt="imagen de herramientas">
-                <h2 class="subtitulo">Habilidades</h2>
-            </div>
-            <div class="contenedor_habilidades">
-                <ul class="contenedor_ul">
-                    <li class="habilidades">HTML</li>
-                    <li class="habilidades">CSS</li>
-                    <li class="habilidades">JavaScript</li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    <script src="scripts.js"></script>
+    </div>
+    <div class="container-notes">
+    </div>
+
+    <script src="codigo.js"></script>
 </body>
 
 </html>
